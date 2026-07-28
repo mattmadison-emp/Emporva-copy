@@ -21,11 +21,11 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-6 pt-32 pb-20 text-center w-full">
         
         <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
-          How Can We Help With<br />Your Home Today?
+          The AI-Powered Homeowner Platform
         </h2>
 
         <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
-          Ask about repairs, maintenance, renovations, projects, property planning, contractor coordination, or general homeownership questions.
+          Emporva helps you organize your home, understand your systems, plan projects, and stay ahead of maintenance—all in one place. Ask questions, upload documents, and build a living record of your home.
         </p>
 
         {/* Input Widget */}
