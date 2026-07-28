@@ -2,29 +2,29 @@ const steps = [
   {
     number: '01',
     icon: 'ri-chat-4-line',
-    title: 'Describe Your Issue',
-    description: 'Tell us what\'s wrong with your property in plain language—no technical jargon needed.',
+    title: 'Ask Anything',
+    description: 'Use Emporva AI to get guidance on repairs, maintenance, remodeling, troubleshooting, and homeownership questions.',
     color: 'bg-[#0B1F33]'
   },
   {
     number: '02',
     icon: 'ri-brain-line',
-    title: 'AI Diagnosis & Breakdown',
-    description: 'Our patent-pending AI analyzes your issue, identifies root causes, and sequences the work needed.',
+    title: 'Build Your Property Profile',
+    description: 'Add your home's systems, appliances, documents, warranties, and maintenance history to create your home's digital memory.',
     color: 'bg-[#6B7C8F]'
   },
   {
     number: '03',
     icon: 'ri-team-line',
-    title: 'Get Matched with Pros',
-    description: 'We connect you with verified contractors who specialize in your specific needs.',
+    title: 'Plan with Confidence',
+    description: 'Organize projects, track progress, estimate costs, and keep everything related to your home in one place.,
     color: 'bg-[#D4B483]'
   },
   {
     number: '04',
     icon: 'ri-checkbox-circle-line',
-    title: 'Track & Complete',
-    description: 'Monitor progress, communicate with your team, and get the job done right.',
+    title: 'Stay Ahead',
+    description: 'Receive reminders and personalized recommendations that help keep your home running smoothly year-round.',
     color: 'bg-[#0B1F33]'
   }
 ];
@@ -38,7 +38,7 @@ export default function HowItWorks() {
             How Emporva Works
           </h2>
           <p className="text-base sm:text-lg text-[#333645] max-w-2xl mx-auto px-4" style={{ fontFamily: 'Inter, sans-serif' }}>
-            From problem to solution in four simple steps—powered by AI, guided by experts.
+            Emporva helps you move from searching for answers to building a complete understanding of your home—all powered by AI and your property's unique history.
           </p>
         </div>
 
