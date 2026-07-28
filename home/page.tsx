@@ -12,23 +12,23 @@ import { useSEO, generateOrganizationSchema, generateWebSiteSchema, generateSoft
 const homepageFAQs = [
   {
     question: 'What is Emporva and how does it work?',
-    answer: 'Emporva is an AI-powered property services platform that helps homeowners diagnose home issues, get clear project scopes, and connect with verified local contractors. Simply describe your problem or upload photos, and our AI will help clarify what you need before matching you with qualified professionals.'
+    answer: 'Emporva is an AI-powered homeowner platform that helps you organize your home's information, understand your systems, plan projects, and stay on top of maintenance—all from one place.'
   },
   {
-    question: 'How much does Emporva cost?',
-    answer: 'Emporva offers a free Core plan with limited monthly credits for AI diagnostics and utility uploads. Our Premium plan is $12/month (or $120/year) and includes unlimited AI diagnostics, Property Memory, utility insights, and resale packet generation.'
+    question: 'How is Emporva different from other AI assistants?',
+    answer: 'Emporva is designed specifically for homeowners. Beyond answering questions, it helps you build a digital record of your home by organizing documents, tracking systems, remembering maintenance history, and providing guidance based on your property's unique information.'
   },
   {
-    question: 'Are the contractors on Emporva verified?',
-    answer: 'Yes, all contractors on Emporva undergo verification including license checks, insurance verification, and background screening. We maintain high standards to ensure homeowners connect with trustworthy professionals.'
+    question: 'Can I upload manuals, warranties, and home documents?',
+    answer: 'Yes. Emporva lets you securely store important home documents like manuals, warranties, receipts, inspection reports, and maintenance records, making them easy to search and reference whenever you need them.'
   },
   {
-    question: 'What types of home services does Emporva cover?',
-    answer: 'Emporva covers a wide range of property services including plumbing, electrical, HVAC, roofing, renovation, painting, landscaping, and general home repairs. Our AI can help diagnose issues across all major home systems.'
+    question: 'Is Emporva free to use?',
+    answer: 'Yes. You can create a free account and start organizing your home, asking AI questions, and exploring homeowner resources. Additional premium features will be available for users looking for more advanced tools and automation.'
   },
   {
-    question: 'How is Emporva different from other contractor platforms?',
-    answer: 'Unlike traditional lead generation platforms, Emporva focuses on clarity and coordination. Our AI helps scope projects before contractors get involved, reducing miscommunication. We also coordinate multi-trade projects and provide shared workspaces for seamless communication.'
+    question: 'Who is Emporva for?',
+    answer: 'Emporva is built for homeowners of every experience level—from first-time buyers learning the basics to experienced homeowners managing repairs, renovations, and long-term maintenance.'
   }
 ];
 
@@ -38,9 +38,9 @@ export default function Home() {
   const faqsForSchema = faqs.length ? faqs : homepageFAQs;
 
   useSEO({
-    title: 'Emporva | AI-Powered Property Services & Contractor Platform',
-    description: 'Emporva is your AI-powered digital general contractor. Diagnose home issues with AI, connect with verified contractors, and manage property maintenance with clarity. Expert plumbing, electrical, roofing, and renovation services.',
-    keywords: 'AI contractor, property services, home repair, plumbing services, electrical contractor, roofing contractor, renovation services, property maintenance, verified contractors, home improvement, AI diagnosis',
+    title: 'Emporva | The AI-Powered Homeowner Platform',
+    description: 'Organize your home, manage maintenance, plan projects, and get personalized guidance with Emporva. Store documents, track home systems, and simplify homeownership with AI.',
+    keywords: 'AI homeowner platform, Home management, Home maintenance, Homeowner tools, Home organization, Home maintenance app, Home project planning, Property management for homeowners, Home systems tracker, Home maintenance reminders, Home improvement planning, Digital home records, Homeowner AI',
     canonical: '/',
     ogImage: 'https://emporva.com/og-image.jpg',
     schema: [
