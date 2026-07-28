@@ -1,0 +1,41 @@
+User-agent: *
+
+# Allow public pages
+Allow: /
+Allow: /about
+Allow: /how-it-works
+Allow: /for-homeowners
+Allow: /for-contractors
+Allow: /for-insurance
+Allow: /for-real-estate
+Allow: /providers
+Allow: /blog
+Allow: /blog/*
+Allow: /services/*
+Allow: /locations
+Allow: /locations/*
+Allow: /problems
+Allow: /contractor-standards
+Allow: /contractor-plans
+Allow: /homeowner-plans
+Allow: /ai-disclosure
+Allow: /privacy
+Allow: /terms
+Allow: /csr
+
+# Disallow private/dashboard pages
+Disallow: /login
+Disallow: /role-selection
+Disallow: /enroll-homeowner
+Disallow: /enroll-contractor
+Disallow: /homeowner-dashboard
+Disallow: /homeowner-dashboard-core
+Disallow: /homeowner-dashboard-premium
+Disallow: /contractor-dashboard
+Disallow: /contractor-dashboard-core
+Disallow: /contractor-dashboard-premium
+Disallow: /contractor-profile
+Disallow: /ai-intake
+
+# Sitemap
+Sitemap: https://example.com/sitemap.xml

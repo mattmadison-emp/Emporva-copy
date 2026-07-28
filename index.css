@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neutral-light text-neutral-dark;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-primary-navy;
+  }
+  
+  p {
+    @apply text-neutral-dark;
+  }
+}
+
+@layer components {
+  /* Primary Button */
+  .btn-primary {
+    @apply bg-primary-navy text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:bg-opacity-90 whitespace-nowrap cursor-pointer;
+  }
+  
+  .btn-primary:hover {
+    @apply shadow-lg;
+  }
+  
+  /* Secondary Button */
+  .btn-secondary {
+    @apply bg-transparent border-2 border-primary-navy text-primary-navy px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:bg-primary-navy hover:text-white whitespace-nowrap cursor-pointer;
+  }
+  
+  /* Accent highlights */
+  .accent-highlight {
+    @apply text-accent-sand;
+  }
+  
+  .accent-border {
+    @apply border-accent-sand;
+  }
+  
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200;
+  }
+
+  /* AI Agent message markdown styles */
+  .agent-message h3.agent-heading {
+    @apply text-sm font-bold mt-3 mb-1 py-1 px-2 rounded-md;
+    color: #0B1F33;
+    background: linear-gradient(90deg, #D4B483 0%, #D4B483 4px, transparent 4px);
+    padding-left: 12px;
+  }
+
+  .agent-message h3.agent-heading:first-child {
+    @apply mt-0;
+  }
+
+  .agent-message p {
+    @apply my-1.5 text-sm leading-relaxed;
+    color: #333645;
+  }
+
+  .agent-message strong {
+    @apply font-semibold;
+    color: #0B1F33;
+  }
+
+  .agent-message ul.agent-ul {
+    @apply my-1.5 pl-0 space-y-1 list-none;
+  }
+
+  .agent-message li.agent-li {
+    @apply text-sm leading-relaxed pl-5 relative;
+    color: #333645;
+  }
+
+  .agent-message li.agent-li::before {
+    content: '';
+    @apply absolute left-1.5 top-2 w-1.5 h-1.5 rounded-full;
+    background-color: #D4B483;
+  }
+
+  .agent-message li.agent-li-ordered::before {
+    content: none;
+  }
+
+  .agent-message li.agent-li-ordered {
+    @apply pl-2;
+    list-style: decimal;
+    list-style-position: inside;
+  }
+}
