@@ -48,7 +48,7 @@ export default function Categories() {
             What Can We Help You With?
           </h2>
           <p className="text-base sm:text-lg text-[#333645] max-w-2xl mx-auto px-4" style={{ fontFamily: 'Inter, sans-serif' }}>
-            From small fixes to major renovations, Emporva connects you with the right professionals for any home project.
+            Explore expert homeowner guides covering every major home system, repair, maintenance task, and improvement project.
           </p>
         </div>
 
@@ -76,7 +76,7 @@ export default function Categories() {
 
         <div className="text-center mt-8 sm:mt-12">
           <Link to="/services" className="inline-block px-6 sm:px-8 py-3 bg-[#0B1F33] text-white rounded-lg hover:bg-[#0B1F33]/90 transition-all duration-300 font-semibold whitespace-nowrap cursor-pointer text-sm sm:text-base" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-            View All Services
+            Browse All Home Guides
           </Link>
         </div>
       </div>
