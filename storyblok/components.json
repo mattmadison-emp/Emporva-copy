@@ -1,0 +1,431 @@
+{
+  "components": [
+    {
+      "name": "service",
+      "display_name": "Service",
+      "is_root": true,
+      "is_nestable": false,
+      "real_name": "service",
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "required": true,
+          "translatable": true,
+          "description": "Service title shown in the hero (e.g. \"Plumbing Repair Services\")."
+        },
+        "description": {
+          "type": "textarea",
+          "pos": 1,
+          "required": true,
+          "translatable": true,
+          "description": "Short subtitle shown under the hero title."
+        },
+        "icon": {
+          "type": "text",
+          "pos": 2,
+          "required": true,
+          "description": "Remix icon class (e.g. \"ri-drop-line\")."
+        },
+        "hero_image": {
+          "type": "asset",
+          "filetypes": ["images"],
+          "pos": 3,
+          "required": true,
+          "description": "Background image for the service hero."
+        },
+        "tab_overview": {
+          "type": "tab",
+          "pos": 4,
+          "display_name": "Overview",
+          "keys": ["title", "description", "icon", "hero_image"]
+        },
+        "common_issues": {
+          "type": "bloks",
+          "pos": 5,
+          "restrict_components": true,
+          "component_whitelist": ["bullet"],
+          "minimum": "1",
+          "description": "Bulleted list of common issues this service resolves."
+        },
+        "process_steps": {
+          "type": "bloks",
+          "pos": 6,
+          "restrict_components": true,
+          "component_whitelist": ["bullet"],
+          "minimum": "1",
+          "description": "Ordered steps shown in the \"How Emporva Works\" section."
+        },
+        "feature_title": {
+          "type": "text",
+          "pos": 16,
+          "translatable": true,
+          "description": "Optional heading for the highlighted feature callout (styled like the \"Why Emporva?\" card — white with a gold left border)."
+        },
+        "feature": {
+          "type": "richtext",
+          "pos": 17,
+          "translatable": true,
+          "description": "Optional feature / information callout rendered in a white card with a gold left border. Leave empty to hide."
+        },
+        "tab_content": {
+          "type": "tab",
+          "pos": 7,
+          "display_name": "Content",
+          "keys": ["common_issues", "process_steps", "feature_title", "feature"]
+        },
+        "avg_cost": {
+          "type": "text",
+          "pos": 8,
+          "required": true,
+          "description": "Typical cost range (e.g. \"$150 - $500\")."
+        },
+        "urgency": {
+          "type": "text",
+          "pos": 9,
+          "required": true,
+          "description": "Urgency / response time copy (e.g. \"Often requires same-day service\")."
+        },
+        "body": {
+          "type": "richtext",
+          "pos": 10,
+          "translatable": true,
+          "description": "Optional long-form body content rendered below the standard sections."
+        },
+        "tab_details": {
+          "type": "tab",
+          "pos": 11,
+          "display_name": "Details",
+          "keys": ["avg_cost", "urgency", "body"]
+        },
+        "seo_title": {
+          "type": "text",
+          "pos": 12,
+          "translatable": true
+        },
+        "seo_description": {
+          "type": "textarea",
+          "pos": 13,
+          "translatable": true
+        },
+        "keywords": {
+          "type": "text",
+          "pos": 14,
+          "translatable": true,
+          "description": "Comma-separated SEO keywords."
+        },
+        "tab_seo": {
+          "type": "tab",
+          "pos": 15,
+          "display_name": "SEO",
+          "keys": ["seo_title", "seo_description", "keywords"]
+        }
+      },
+      "color": "#0B1F33",
+      "icon": "block-wrench"
+    },
+    {
+      "name": "services_index",
+      "display_name": "Services Index",
+      "is_root": true,
+      "is_nestable": false,
+      "real_name": "services_index",
+      "schema": {
+        "headline": {
+          "type": "text",
+          "pos": 0,
+          "required": true,
+          "translatable": true,
+          "description": "Hero headline on the services landing page."
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 1,
+          "translatable": true,
+          "description": "Hero subhead / intro paragraph."
+        },
+        "body": {
+          "type": "richtext",
+          "pos": 2,
+          "translatable": true,
+          "description": "Optional rich-text content rendered below the service grid."
+        },
+        "seo_title": {
+          "type": "text",
+          "pos": 3,
+          "translatable": true
+        },
+        "seo_description": {
+          "type": "textarea",
+          "pos": 4,
+          "translatable": true
+        }
+      },
+      "color": "#0B1F33",
+      "icon": "block-grid"
+    },
+    {
+      "name": "bullet",
+      "display_name": "Bullet",
+      "is_root": false,
+      "is_nestable": true,
+      "real_name": "bullet",
+      "schema": {
+        "text": {
+          "type": "text",
+          "pos": 0,
+          "required": true,
+          "translatable": true
+        }
+      },
+      "color": "#6B7C8F",
+      "icon": "block-text"
+    },
+    {
+      "name": "article",
+      "display_name": "Article",
+      "is_root": true,
+      "is_nestable": false,
+      "real_name": "article",
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "required": true,
+          "translatable": true,
+          "description": "Article headline."
+        },
+        "excerpt": {
+          "type": "textarea",
+          "pos": 1,
+          "required": true,
+          "translatable": true,
+          "description": "Short blurb shown in the listing card and used for SEO description fallback."
+        },
+        "category": {
+          "type": "text",
+          "pos": 2,
+          "required": true,
+          "translatable": true,
+          "description": "Free-form category. Whatever is typed here becomes a filter on the blog index (e.g. \"Plumbing\", \"Electrical\")."
+        },
+        "hero_image": {
+          "type": "asset",
+          "filetypes": ["images"],
+          "pos": 3,
+          "required": true,
+          "description": "Hero image shown at the top of the article and on the listing card."
+        },
+        "tab_overview": {
+          "type": "tab",
+          "pos": 4,
+          "display_name": "Overview",
+          "keys": ["title", "excerpt", "category", "hero_image"]
+        },
+        "author": {
+          "type": "text",
+          "pos": 5,
+          "translatable": true,
+          "description": "Author name. Optional."
+        },
+        "published_date": {
+          "type": "datetime",
+          "pos": 6,
+          "required": true,
+          "description": "Publication date used for sorting and display."
+        },
+        "read_time": {
+          "type": "text",
+          "pos": 7,
+          "required": true,
+          "description": "Display string like \"8 min read\"."
+        },
+        "tab_meta": {
+          "type": "tab",
+          "pos": 8,
+          "display_name": "Metadata",
+          "keys": ["author", "published_date", "read_time"]
+        },
+        "body": {
+          "type": "richtext",
+          "pos": 9,
+          "required": true,
+          "translatable": true,
+          "description": "Main article body. Use headings, paragraphs, bullet lists."
+        },
+        "feature_title": {
+          "type": "text",
+          "pos": 15,
+          "translatable": true,
+          "description": "Optional heading for the highlighted feature callout (styled like the \"Why Emporva?\" card — white with a gold left border)."
+        },
+        "feature": {
+          "type": "richtext",
+          "pos": 16,
+          "translatable": true,
+          "description": "Optional feature / information callout rendered in a white card with a gold left border. Leave empty to hide."
+        },
+        "tab_content": {
+          "type": "tab",
+          "pos": 10,
+          "display_name": "Content",
+          "keys": ["body", "feature_title", "feature"]
+        },
+        "seo_title": {
+          "type": "text",
+          "pos": 11,
+          "translatable": true
+        },
+        "seo_description": {
+          "type": "textarea",
+          "pos": 12,
+          "translatable": true
+        },
+        "keywords": {
+          "type": "text",
+          "pos": 13,
+          "translatable": true,
+          "description": "Comma-separated SEO keywords."
+        },
+        "tab_seo": {
+          "type": "tab",
+          "pos": 14,
+          "display_name": "SEO",
+          "keys": ["seo_title", "seo_description", "keywords"]
+        }
+      },
+      "color": "#0B1F33",
+      "icon": "block-text"
+    },
+    {
+      "name": "blog_index",
+      "display_name": "Blog Index",
+      "is_root": true,
+      "is_nestable": false,
+      "real_name": "blog_index",
+      "schema": {
+        "headline": {
+          "type": "text",
+          "pos": 0,
+          "required": true,
+          "translatable": true
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 1,
+          "translatable": true
+        },
+        "seo_title": {
+          "type": "text",
+          "pos": 2,
+          "translatable": true
+        },
+        "seo_description": {
+          "type": "textarea",
+          "pos": 3,
+          "translatable": true
+        }
+      },
+      "color": "#0B1F33",
+      "icon": "block-grid"
+    },
+    {
+      "name": "faq_item",
+      "display_name": "FAQ Item",
+      "is_root": false,
+      "is_nestable": true,
+      "real_name": "faq_item",
+      "schema": {
+        "question": {
+          "type": "text",
+          "pos": 0,
+          "required": true,
+          "translatable": true,
+          "description": "The question, shown as the accordion header."
+        },
+        "answer": {
+          "type": "richtext",
+          "pos": 1,
+          "required": true,
+          "translatable": true,
+          "description": "The answer, revealed when the item is expanded. Supports links and formatting."
+        }
+      },
+      "color": "#6B7C8F",
+      "icon": "block-comment"
+    },
+    {
+      "name": "faq_category",
+      "display_name": "FAQ Category",
+      "is_root": false,
+      "is_nestable": true,
+      "real_name": "faq_category",
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0,
+          "required": true,
+          "translatable": true,
+          "description": "Section heading grouping a set of FAQ items (e.g. \"Account & Plans\")."
+        },
+        "items": {
+          "type": "bloks",
+          "pos": 1,
+          "restrict_components": true,
+          "component_whitelist": ["faq_item"],
+          "minimum": "1",
+          "description": "The questions in this category."
+        }
+      },
+      "color": "#6B7C8F",
+      "icon": "block-buildup"
+    },
+    {
+      "name": "faq_list",
+      "display_name": "FAQ List",
+      "is_root": true,
+      "is_nestable": false,
+      "real_name": "faq_list",
+      "schema": {
+        "headline": {
+          "type": "text",
+          "pos": 0,
+          "translatable": true,
+          "description": "Optional heading for the FAQ section (e.g. \"Frequently Asked Questions\")."
+        },
+        "subhead": {
+          "type": "textarea",
+          "pos": 1,
+          "translatable": true,
+          "description": "Optional intro paragraph shown under the headline."
+        },
+        "items": {
+          "type": "bloks",
+          "pos": 2,
+          "restrict_components": true,
+          "component_whitelist": ["faq_item"],
+          "description": "Flat list of FAQs. Use this for a simple, ungrouped FAQ section."
+        },
+        "categories": {
+          "type": "bloks",
+          "pos": 3,
+          "restrict_components": true,
+          "component_whitelist": ["faq_category"],
+          "description": "Grouped FAQs by category. Use this instead of (or alongside) Items for a longer, sectioned help page."
+        },
+        "seo_title": {
+          "type": "text",
+          "pos": 4,
+          "translatable": true
+        },
+        "seo_description": {
+          "type": "textarea",
+          "pos": 5,
+          "translatable": true
+        }
+      },
+      "color": "#0B1F33",
+      "icon": "block-comment"
+    }
+  ]
+}
