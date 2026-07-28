@@ -81,13 +81,13 @@ export default function HowItWorks() {
         {/* CTA */}
         <div className="text-center bg-gradient-to-r from-[#0B1F33] to-[#6B7C8F] rounded-2xl p-8 sm:p-12 shadow-xl">
           <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 sm:mb-4 px-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-            Ready to Get Started?
+            RYour Home Deserves More Than Sticky Notes and File Folders
           </h3>
           <p className="text-white/90 text-base sm:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto px-4" style={{ fontFamily: 'Inter, sans-serif' }}>
-            Join thousands of property owners who trust Emporva for their home improvement needs
+            Create your free Emporva account and start building a smarter, more organized home.
           </p>
           <button className="px-8 sm:px-10 py-3 sm:py-4 bg-white text-[#0B1F33] rounded-lg hover:bg-gray-50 transition-all duration-300 font-semibold text-base sm:text-lg shadow-lg hover:shadow-xl whitespace-nowrap cursor-pointer" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-            Start Your Project Now
+            Get Started Free
           </button>
         </div>
       </div>
