@@ -185,7 +185,7 @@ export default function InputWidget() {
               className="block text-sm font-semibold text-[#333645] mb-2"
               style={{ fontFamily: 'Montserrat, sans-serif' }}
             >
-              Describe Your Issue
+              Ask anything about your home
             </label>
           </div>
         )}
@@ -237,7 +237,7 @@ export default function InputWidget() {
           className="w-full mt-4 px-6 py-3 bg-[#0B1F33] text-white rounded-lg hover:bg-[#0a1a2a] transition-all duration-300 font-semibold text-base shadow-md hover:shadow-lg whitespace-nowrap cursor-pointer disabled:bg-gray-300 disabled:cursor-not-allowed disabled:shadow-none"
           style={{ fontFamily: 'Montserrat, sans-serif' }}
         >
-          {loading ? 'Analyzing...' : inConversation ? 'Send Reply' : 'Get AI Analysis'}
+          {loading ? 'Analyzing...' : inConversation ? 'Send Reply' : 'Ask Emporva AI'}
         </button>
       </div>
     </div>
