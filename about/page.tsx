@@ -7,7 +7,7 @@ import { useSEO, generateWebPageSchema, generateBreadcrumbSchema } from '../../u
 export default function About() {
   useSEO({
     title: 'About Emporva | AI-Powered Property Services Platform',
-    description: 'Learn about Emporva\'s mission to transform home improvement through AI-powered coordination. We connect homeowners with verified contractors using intelligent scoping and shared workspaces.',
+    description: 'Learn about Emporva's mission to simplify homeownership through AI, Property Memory, and personalized guidance that helps homeowners organize, maintain, and understand their homes.',
     keywords: 'about Emporva, property services platform, AI contractor matching, home improvement technology, contractor coordination, property intelligence',
     canonical: '/about',
     schema: [
@@ -33,10 +33,10 @@ export default function About() {
         <section className="pt-32 pb-20 px-6" aria-label="Hero">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold text-[#0B1F33] mb-6">
-              About Emporva
+              Building a Smarter Future for Homeowners
             </h1>
             <p className="text-xl text-[#6B7C8F] leading-relaxed">
-              We're building the operating system for <strong>home improvement</strong>, connecting homeowners, contractors, and the entire ecosystem around clarity, coordination, and trust.
+              Homeownership should feel empowering—not overwhelming. At Emporva, we're reimagining how people care for their homes by combining intelligent technology with practical homeowner guidance.
             </p>
           </div>
         </section>
@@ -47,7 +47,7 @@ export default function About() {
             <article className="bg-white rounded-xl shadow-sm p-12 border-l-4 border-[#D4B483]">
               <h2 className="text-3xl font-bold text-[#0B1F33] mb-6">Why Emporva?</h2>
               <p className="text-lg text-[#333645] leading-relaxed">
-                <strong>Emporva</strong> is built from the idea of an emporium, a bustling place of commerce and exchange, reimagined for today's digital age. Historically, an emporium brought people together around trusted trade. Emporva brings that same spirit into modern <strong>property work</strong> by creating smarter systems that connect property owners, contractors, and the work itself through clarity, coordination, and shared context.
+                Emporva is an AI-powered homeowner platform designed to help people organize, understand, and care for their homes. By combining personalized AI guidance with a living digital record of your property, Emporva helps homeowners manage maintenance, plan projects, store important documents, and make informed decisions throughout the life of their home.
               </p>
             </article>
           </div>
@@ -59,13 +59,13 @@ export default function About() {
             <article className="bg-white rounded-xl shadow-sm p-12">
               <h2 className="text-3xl font-bold text-[#0B1F33] mb-6">Our Mission</h2>
               <p className="text-lg text-[#333645] leading-relaxed mb-6">
-                <strong>Home improvement is broken.</strong> Homeowners don't know what they need. Contractors waste time on unscoped requests. Projects start without clarity and end in frustration.
+                <strong>Helping Every Homeowner Feel More Confident.</strong> Owning a home is one of life's biggest investments, yet many homeowners are left navigating repairs, maintenance, renovations, warranties, manuals, and unexpected problems on their own. Information is scattered, advice is generic, and important records are often difficult to find when they're needed most.Emporva was created to change that.
               </p>
               <p className="text-lg text-[#333645] leading-relaxed mb-6">
-                Emporva exists to fix that. We use <strong>AI to turn vague ideas into structured scopes</strong>. We coordinate multi-trade projects so nothing falls through the cracks. We create shared workspaces where everyone operates from the same plan.
+                We believe every homeowner deserves a trusted platform that keeps everything connected—from home systems and maintenance history to AI-powered guidance tailored to their property. By bringing organization, intelligence, and proactive planning together in one place, we're helping homeowners spend less time searching for answers and more time enjoying their homes.
               </p>
               <p className="text-lg text-[#333645] leading-relaxed">
-                We're not a lead generation platform. We're not a directory. We're a <strong>coordination layer</strong> that makes home improvement work the way it should.
+                Our vision is to become the trusted digital companion homeowners rely on throughout every stage of homeownership.
               </p>
             </article>
           </div>
@@ -80,27 +80,27 @@ export default function About() {
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <i className="ri-focus-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Clarity First</h3>
+                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Homeowners Deserve Better</h3>
                 <p className="text-[#6B7C8F]">
-                  Every project should start with a <strong>clear scope</strong>, realistic timeline, and shared expectations.
+                  Owning a home shouldn't mean juggling spreadsheets, file folders, sticky notes, and endless internet searches. We believe technology should make homeownership simpler, more organized, and less stressful.
                 </p>
               </article>
               <article className="text-center">
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <i className="ri-team-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Coordination Over Chaos</h3>
+                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Knowledge Should Be Personal</h3>
                 <p className="text-[#6B7C8F]">
-                  <strong>Multi-trade projects</strong> need orchestration, not just matching. We handle the sequencing.
+                  <strong>Every home is different. Great guidance comes from understanding your property's unique systems, history, documents, and maintenance—not just providing generic answers.
                 </p>
               </article>
               <article className="text-center">
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <i className="ri-shield-check-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Trust Through Transparency</h3>
+                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Prevention Is Better Than Repair</h3>
                 <p className="text-[#6B7C8F]">
-                  <strong>Shared workspaces</strong>, visible progress, and clear communication build confidence.
+                  The best home problems are the ones that never happen. By helping homeowners stay organized and proactive, we believe we can reduce costly surprises and protect one of life's biggest investments.
                 </p>
               </article>
             </div>
