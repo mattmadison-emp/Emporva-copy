@@ -14,10 +14,10 @@ export default function Trust() {
               Built on Intelligence You Can Trust
             </h2>
             <p className="text-lg text-[#333645] mb-6 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
-              Emporva uses <strong>provisional patent-protected AI technology</strong> to analyze your property issues, break them down into clear steps, and connect you with verified professionals who can help.
+              Emporva combines practical homeowner knowledge with AI and your home's unique information to deliver guidance that's organized, personalized, and designed for real life.
             </p>
             <p className="text-lg text-[#333645] mb-8 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
-              Unlike traditional contractor platforms, we don't just match you with someone—we <strong>diagnose the problem, sequence the work, and guide you through every step</strong> with transparency and clarity.
+              As you build your home's digital memory, Emporva becomes a smarter, more valuable companion—helping you care for your home with confidence every step of the way.
             </p>
 
             {/* Trust Badges */}
@@ -27,7 +27,7 @@ export default function Trust() {
                   <i className="ri-shield-check-line text-2xl text-[#0B1F33]"></i>
                 </div>
                 <p className="text-sm font-semibold text-[#333645]" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                  Verified Pros
+                  Proactive Home Care
                 </p>
               </div>
               <div className="text-center">
@@ -35,7 +35,7 @@ export default function Trust() {
                   <i className="ri-lightbulb-line text-2xl text-[#D4B483]"></i>
                 </div>
                 <p className="text-sm font-semibold text-[#333645]" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                  AI Diagnosis
+                  Personalized AI Guidance
                 </p>
               </div>
               <div className="text-center">
@@ -43,7 +43,7 @@ export default function Trust() {
                   <i className="ri-file-list-3-line text-2xl text-[#6B7C8F]"></i>
                 </div>
                 <p className="text-sm font-semibold text-[#333645]" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                  Clear Steps
+                  Your Home's Digital Memory
                 </p>
               </div>
             </div>
