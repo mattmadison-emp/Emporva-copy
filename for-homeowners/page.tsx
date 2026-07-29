@@ -8,20 +8,20 @@ import { useSEO, generateWebPageSchema, generateServiceSchema, generateFAQSchema
 
 const homeownerFAQs = [
   {
-    question: 'How does Emporva help homeowners diagnose home issues?',
-    answer: 'Emporva uses AI-powered diagnosis to analyze photos and descriptions of your home issues. Simply upload images and describe the problem, and our AI will identify potential causes, suggest solutions, and help you understand the scope of work needed before connecting with contractors.'
+    question: 'What can I do with Emporva?',
+    answer: 'Emporva helps homeowners organize home information, ask AI questions, track maintenance, store documents, plan projects, and build a complete digital history of their property.'
   },
   {
-    question: 'What is Property Memory and how does it work?',
-    answer: 'Property Memory is Emporva\'s system for tracking your home\'s complete history including repairs, upgrades, system installations, and maintenance records. It creates a comprehensive digital record that\'s valuable for insurance claims, resale, and ongoing maintenance planning.'
+    question: 'Is Emporva only for new homeowners?',
+    answer: 'No. Whether you've owned your home for one month or twenty years, Emporva helps you stay organized and make informed decisions.'
   },
   {
-    question: 'Can Emporva help predict utility costs and detect anomalies?',
-    answer: 'Yes, Emporva\'s Premium plan includes Utility Insights which analyzes your utility bills to predict future costs, detect unusual usage patterns that might indicate problems like leaks or HVAC issues, and help you optimize energy efficiency.'
+    question: 'Can I upload manuals and warranties?',
+    answer: 'Yes. Store manuals, warranties, inspection reports, receipts, and maintenance records securely in your account. Use out AI tool to search the documents and find the answer you need fast'
   },
   {
-    question: 'How much does Emporva cost for homeowners?',
-    answer: 'Emporva offers a free Core plan with 3 AI diagnostic credits, 3 utility upload credits, and 1 export credit every 6 months. The Premium plan at $12/month (or $120/year) includes unlimited diagnostics, Property Memory, utility insights, and resale packet generation.'
+    question: 'How does Emporva personalize recommendations?',
+    answer: 'As you add information about your home's systems, documents, maintenance history, and projects, Emporva uses that information to provide guidance that's more relevant to your property.'
   }
 ];
 
@@ -31,9 +31,9 @@ export default function ForHomeowners() {
   const faqsForSchema = faqs.length ? faqs : homeownerFAQs;
 
   useSEO({
-    title: 'Emporva for Homeowners | AI Property Intelligence & Home Maintenance',
-    description: 'Take control of your home with Emporva\'s AI-powered property intelligence. Diagnose issues, track home history with Property Memory, predict utility costs, and connect with verified contractors. Free to start.',
-    keywords: 'homeowner tools, property intelligence, home maintenance, AI diagnosis, Property Memory, utility insights, home repair, verified contractors, property management',
+    title: 'Emporva for Homeowners | Organize, Maintain & Understand Your Home',
+    description: 'Discover how Emporva helps homeowners organize home information, manage maintenance, store documents, plan projects, and receive personalized AI guidance through one intelligent platform.',
+    keywords: 'Emporva for homeowners, homeowner platform, AI homeowner platform, home management, property memory, home maintenance, home organization, home maintenance app, home systems, home projects, digital home records',
     canonical: '/for-homeowners',
     schema: [
       generateWebPageSchema(
@@ -67,13 +67,13 @@ export default function ForHomeowners() {
           <div className="absolute inset-0 bg-gradient-to-br from-[#0B1F33] to-[#0B1F33]/80"></div>
           <div className="relative max-w-6xl mx-auto text-center text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-[#F9F9FB]">
-              Take Control of Your Home with Intelligence, Not Guesswork
+              Everything You Need to Manage Your Home
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-[#F9F9FB]/90">
-              <strong>Diagnose issues with AI</strong>. Track your home's history. Anticipate costs and catch problems before they become expensive.
+              Homeownership comes with constant questions, unexpected repairs, and endless information to keep track of. Emporva brings everything together in one intelligent platform, helping you organize your home, stay ahead of maintenance, and make confident decisions every step of the way.
             </p>
-            <Link to="/ai-intake" className="inline-block bg-[#D4B483] text-[#0B1F33] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#D4B483]/90 transition-colors whitespace-nowrap">
-              Start Your Project
+            <Link to="/login" className="inline-block bg-[#D4B483] text-[#0B1F33] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#D4B483]/90 transition-colors whitespace-nowrap">
+              Get Started
             </Link>
           </div>
         </section>
@@ -82,15 +82,17 @@ export default function ForHomeowners() {
         <section className="py-20 px-6 bg-white" aria-label="Platform overview">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-[#0B1F33] text-center mb-8">
-              A Property Intelligence System, Not a Marketplace
+              Built for the Way Homeowners Actually Live
             </h2>
             <div className="space-y-6 text-lg text-[#333645] leading-relaxed">
               <p>
-                Homeownership comes with constant decisions, unclear priorities, and expensive surprises. Most people are forced to react to problems without understanding what they mean, how urgent they are, or what should happen next.
+                Owning a home is rewarding, but it can also feel overwhelming. Manuals disappear, warranties are forgotten, maintenance gets postponed, and finding trustworthy answers often means searching through dozens of websites.
               </p>
               <p>
-                <strong>Emporva</strong> gives homeowners a clear command center for their property. Using <strong>AI-assisted diagnosis</strong>, <strong>Property Memory</strong>, and <strong>utility insights</strong>, Emporva helps homeowners understand their home, plan ahead, and move forward with confidence.
+                Emporva changes that experience.
               </p>
+               <p>
+                By combining AI guidance with your home's unique information, Emporva helps you organize everything in one place while providing personalized recommendations that become more valuable over time.
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 mt-12">
@@ -99,19 +101,19 @@ export default function ForHomeowners() {
                 <ul className="space-y-3 text-[#6B7C8F]">
                   <li className="flex items-start gap-3">
                     <i className="ri-close-circle-line text-red-500 text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                    <span>Unclear repair decisions and priorities</span>
+                    <span>Important documents scattered across emails and file cabinets</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="ri-close-circle-line text-red-500 text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                    <span>Reactive maintenance instead of planning</span>
+                    <span>Forgetting maintenance until something breaks</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="ri-close-circle-line text-red-500 text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                    <span>Lost property history and documentation</span>
+                    <span>Generic online advice that doesn't fit your home</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="ri-close-circle-line text-red-500 text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                    <span>Unexpected utility costs and anomalies</span>
+                    <span>Uncertainty about repairs and improvement projects</span>
                   </li>
                 </ul>
               </article>
@@ -121,19 +123,19 @@ export default function ForHomeowners() {
                 <ul className="space-y-3 text-[#6B7C8F]">
                   <li className="flex items-start gap-3">
                     <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                    <span><strong>AI diagnosis</strong> and clarification</span>
+                    <span><strong>Organize your home's information in one secure location</strong> and clarification</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                    <span><strong>Property Memory</strong> tracks your home's history</span>
+                    <span><strong>Receive AI guidance designed specifically for homeowners</strong> tracks your home's history</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                    <span><strong>Utility insights</strong> predict usage and catch anomalies</span>
+                    <span><strong>Build a digital memory of your property over time</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                    <span>Generate <strong>resale packets</strong> for buyers and lenders</span>
+                    <span>Make smarter decisions with confidence</span>
                   </li>
                 </ul>
               </article>
@@ -144,60 +146,60 @@ export default function ForHomeowners() {
         {/* Key Benefits */}
         <section className="py-20 px-6" aria-label="Key benefits">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-[#0B1F33] text-center mb-16">What Emporva Does for You</h2>
+            <h2 className="text-4xl font-bold text-[#0B1F33] text-center mb-16">One Platform. Every Part of Homeownership.</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <article className="bg-white rounded-xl p-8 shadow-sm">
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mb-6">
                   <i className="ri-brain-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">Diagnose Issues with AI</h3>
+                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">AI Home Guidance</h3>
                 <p className="text-[#6B7C8F] text-lg">
-                  Upload photos and describe problems. Get instant <strong>AI diagnosis</strong>, follow-up questions, and suggested scope—no guesswork required.
+                  Get practical answers to maintenance, repairs, projects, and everyday homeowner questions.
                 </p>
               </article>
               <article className="bg-white rounded-xl p-8 shadow-sm">
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mb-6">
                   <i className="ri-database-2-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">Track Your Home's History</h3>
+                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">Property Memory</h3>
                 <p className="text-[#6B7C8F] text-lg">
-                  <strong>Property Memory</strong> stores every repair, upgrade, and system detail. Perfect for resale, insurance claims, or your own peace of mind.
+                  Create a living record of your home's systems, maintenance history, warranties, manuals, and improvements.
                 </p>
               </article>
               <article className="bg-white rounded-xl p-8 shadow-sm">
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mb-6">
                   <i className="ri-line-chart-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">Anticipate Utility Costs</h3>
+                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">Maintenance Tracking</h3>
                 <p className="text-[#6B7C8F] text-lg">
-                  Upload utility bills and get predictions, <strong>anomaly detection</strong>, and insights that help you catch problems before they become expensive.
+                  Keep maintenance organized with reminders, schedules, and completed service history.
                 </p>
               </article>
               <article className="bg-white rounded-xl p-8 shadow-sm">
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mb-6">
                   <i className="ri-alarm-warning-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">Catch Anomalies Early</h3>
+                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">Project Planning</h3>
                 <p className="text-[#6B7C8F] text-lg">
-                  Spot unusual patterns in utility usage, system performance, or maintenance needs before they turn into major repairs.
+                  Plan repairs and renovations, organize project information, and keep everything connected.
                 </p>
               </article>
               <article className="bg-white rounded-xl p-8 shadow-sm">
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mb-6">
                   <i className="ri-file-text-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">Generate Resale Packets</h3>
+                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">Document Vault</h3>
                 <p className="text-[#6B7C8F] text-lg">
-                  Create comprehensive <strong>property history reports</strong> for buyers, lenders, or inspectors—showing every improvement and system detail.
+                  Securely organize inspection reports, receipts, warranties, manuals, and important home records.
                 </p>
               </article>
               <article className="bg-white rounded-xl p-8 shadow-sm">
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mb-6">
                   <i className="ri-team-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">Connect with Verified Contractors</h3>
+                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">Homeowner Resources</h3>
                 <p className="text-[#6B7C8F] text-lg">
-                  Get matched with <strong>background-checked professionals</strong>. Shared job rooms keep communication, approvals, and documentation in one place.
+                  Browse trusted guides covering maintenance, home systems, repairs, remodeling, and project planning.
                 </p>
               </article>
             </div>
@@ -207,33 +209,33 @@ export default function ForHomeowners() {
         {/* How It Works */}
         <section className="py-20 px-6 bg-white" aria-label="How it works">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-[#0B1F33] text-center mb-16">How Emporva Works for You</h2>
+            <h2 className="text-4xl font-bold text-[#0B1F33] text-center mb-16">How Emporva Works For You</h2>
             <div className="grid md:grid-cols-3 gap-12">
               <article className="text-center">
                 <div className="w-20 h-20 bg-[#D4B483]/10 rounded-full flex items-center justify-center mx-auto mb-6">
                   <i className="ri-chat-upload-line text-4xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">1. Describe What You Need</h3>
+                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">1. Create Your Home/h3>
                 <p className="text-[#6B7C8F] text-lg">
-                  Upload photos, describe the issue, or share renovation ideas. Our <strong>AI helps you clarify</strong> the scope.
+                  Build your property profile and begin organizing your home's information.
                 </p>
               </article>
               <article className="text-center">
                 <div className="w-20 h-20 bg-[#D4B483]/10 rounded-full flex items-center justify-center mx-auto mb-6">
                   <i className="ri-team-line text-4xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">2. Get Matched with Pros</h3>
+                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">2. Ask and Learn</h3>
                 <p className="text-[#6B7C8F] text-lg">
-                  We connect you with <strong>qualified contractors</strong> who can handle your specific project—no guesswork.
+                  Use AI to answer questions, troubleshoot issues, and plan projects with confidence.
                 </p>
               </article>
               <article className="text-center">
                 <div className="w-20 h-20 bg-[#D4B483]/10 rounded-full flex items-center justify-center mx-auto mb-6">
                   <i className="ri-checkbox-circle-line text-4xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">3. Track Everything in One Place</h3>
+                <h3 className="text-2xl font-bold text-[#0B1F33] mb-4">3. Stay Organized</h3>
                 <p className="text-[#6B7C8F] text-lg">
-                  Shared workspace for communication, approvals, photos, payments, and <strong>progress updates</strong>.
+                  Continue adding documents, maintenance history, and projects while Emporva becomes increasingly personalized.
                 </p>
               </article>
             </div>
@@ -246,7 +248,7 @@ export default function ForHomeowners() {
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-[#0B1F33] mb-4">Unlock Property Intelligence</h2>
               <p className="text-xl text-[#6B7C8F]">
-                Start with Core and upgrade to Premium for unlimited intelligence features
+                Choose the Plan That's Right for You
               </p>
             </div>
 
@@ -270,7 +272,7 @@ export default function ForHomeowners() {
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                    <span className="text-[#333645]"><strong>1 Export Credit</strong> every 6 months</span>
+                    <span className="text-[#333645]"><strong>Seasonal task reminders tailored to your home</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
@@ -282,11 +284,11 @@ export default function ForHomeowners() {
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                    <span className="text-[#333645]">Shared job rooms with contractors</span>
+                    <span className="text-[#333645]">DIY project planning and guidance</span>
                   </li>
                 </ul>
 
-                <Link to="/ai-intake" className="block w-full bg-[#0B1F33] text-white text-center py-3 rounded-lg font-semibold hover:bg-[#0B1F33]/90 transition-colors whitespace-nowrap">
+                <Link to="/login" className="block w-full bg-[#0B1F33] text-white text-center py-3 rounded-lg font-semibold hover:bg-[#0B1F33]/90 transition-colors whitespace-nowrap">
                   Get Started Free
                 </Link>
               </article>
@@ -297,7 +299,7 @@ export default function ForHomeowners() {
                   Most Popular
                 </div>
                 <h3 className="text-2xl font-bold text-[#0B1F33] mb-2">Premium</h3>
-                <p className="text-[#6B7C8F] mb-6">Unlock Property Memory, Utility Insights, and resale-ready history</p>
+                <p className="text-[#6B7C8F] mb-6">Unlock Property Memory, Utility Insights, resale-ready history, and much more.</p>
                 <div className="mb-8">
                   <span className="text-5xl font-bold text-[#0B1F33]">$12</span>
                   <span className="text-[#6B7C8F] text-lg">/month</span>
@@ -333,9 +335,13 @@ export default function ForHomeowners() {
                     <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
                     <span className="text-[#333645]">Unlimited storage for docs &amp; photos</span>
                   </li>
+                  <li className="flex items-start gap-3">
+                    <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
+                    <span className="text-[#333645]">Everything else you might need</span>
+                  </li>
                 </ul>
 
-                <Link to="/homeowner-plans" className="block w-full bg-[#D4B483] text-[#0B1F33] text-center py-3 rounded-lg font-semibold hover:bg-[#D4B483]/90 transition-colors whitespace-nowrap">
+                <Link to="/login" className="block w-full bg-[#D4B483] text-[#0B1F33] text-center py-3 rounded-lg font-semibold hover:bg-[#D4B483]/90 transition-colors whitespace-nowrap">
                   Upgrade to Premium
                 </Link>
               </article>
@@ -360,12 +366,12 @@ export default function ForHomeowners() {
         {/* CTA Section */}
         <section className="py-20 px-6 bg-white" aria-label="Call to action">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-bold text-[#0B1F33] mb-6">Ready to Take Control?</h2>
+            <h2 className="text-4xl font-bold text-[#0B1F33] mb-6">Your Home Has a Story. Start Building It Today.</h2>
             <p className="text-xl text-[#6B7C8F] mb-8">
-              Join thousands of homeowners who use <strong>Emporva</strong> to understand their property and plan ahead.
+              Every maintenance record, project, warranty, and improvement adds to your home's history. Create your free Emporva account and begin building a smarter way to manage your home.
             </p>
             <Link to="/ai-intake" className="inline-block bg-[#0B1F33] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#0B1F33]/90 transition-colors whitespace-nowrap">
-              Get Started Free
+              Get Started
             </Link>
           </div>
         </section>
