@@ -6,32 +6,32 @@ import { useSEO, generateWebPageSchema, generateHowToSchema, generateBreadcrumbS
 
 const howItWorksSteps = [
   {
-    name: 'Describe Your Project',
-    text: 'Upload photos and describe what you need. Our AI helps you clarify the scope, identify potential complications, and set realistic expectations—all before you talk to a contractor.',
+    name: 'Create Your Home Profile',
+    text: 'Start by creating your free account and adding your property. You can enter basic information about your home, upload important documents, and begin building your home's digital memory.',
     image: 'https://readdy.ai/api/search-image?query=person%20using%20smartphone%20to%20photograph%20home%20renovation%20area%20modern%20clean%20interface%20professional%20lighting&width=600&height=400&seq=hiw1&orientation=landscape'
   },
   {
-    name: 'Get Matched with Pros',
-    text: 'Based on your project scope, we connect you with qualified contractors who have the right skills, availability, and track record. No more guessing or endless searching.',
+    name: 'Ask Questions and Explore',
+    text: 'Whether you're troubleshooting a problem, planning a renovation, or learning about your home's systems, Emporva AI is ready to help. Get practical guidance and discover homeowner resources tailored to your needs.',
     image: 'https://readdy.ai/api/search-image?query=professional%20contractors%20reviewing%20project%20details%20on%20digital%20tablet%20modern%20workspace%20collaborative%20setting&width=600&height=400&seq=hiw2&orientation=landscape'
   },
   {
-    name: 'Review and Approve',
-    text: 'Contractors provide detailed quotes based on the AI-generated scope. You can compare options, ask questions, and make informed decisions—all within the platform.',
+    name: 'Organize Everything in One Place',
+    text: 'Store manuals, warranties, receipts, maintenance records, inspection reports, and project information so it's always available when you need it.',
     image: 'https://readdy.ai/api/search-image?query=homeowner%20reviewing%20contractor%20quotes%20on%20laptop%20modern%20home%20office%20professional%20setting%20with%20documents&width=600&height=400&seq=hiw3&orientation=landscape'
   },
   {
-    name: 'Track Everything',
-    text: 'Once work begins, your shared workspace keeps everyone aligned. Track progress, approve changes, share photos, and manage payments—all in one place.',
+    name: 'Stay Ahead of Homeownership',
+    text: 'Track maintenance, manage projects, receive reminders, and continue building a complete history of your home over time. The more information you add, the more personalized your experience becomes.',
     image: 'https://readdy.ai/api/search-image?query=construction%20progress%20tracking%20with%20digital%20dashboard%20showing%20timeline%20and%20milestones%20professional%20workspace&width=600&height=400&seq=hiw4&orientation=landscape'
   }
 ];
 
 export default function HowItWorks() {
   useSEO({
-    title: 'How Emporva Works | AI-Powered Home Improvement Process',
-    description: 'Learn how Emporva coordinates your home improvement projects from start to finish. AI diagnosis, contractor matching, shared workspaces, and multi-trade coordination explained.',
-    keywords: 'how Emporva works, home improvement process, contractor matching, AI diagnosis, project coordination, multi-trade projects, home renovation steps',
+    title: 'How Emporva Works | The AI-Powered Homeowner Platform',
+    description: 'Learn how Emporva helps homeowners organize their homes, ask AI questions, manage maintenance, store important documents, and plan projects in just a few simple steps.',
+    keywords: 'how Emporva works, homeowner platform, AI homeowner platform, home management, property memory, home maintenance, home organization, home systems, home projects, AI home assistant',
     canonical: '/how-it-works',
     schema: [
       generateWebPageSchema(
@@ -64,7 +64,7 @@ export default function HowItWorks() {
               How Emporva Works
             </h1>
             <p className="text-xl text-white/90 leading-relaxed">
-              From initial idea to project completion, <strong>Emporva</strong> coordinates every step of your <strong>home improvement</strong> journey.
+              Getting started with Emporva takes just a few minutes. Build your home's profile, ask questions, organize important information, and let Emporva help you stay one step ahead of homeownership.
             </p>
           </div>
         </section>
@@ -80,23 +80,23 @@ export default function HowItWorks() {
                     <div className="w-12 h-12 bg-[#D4B483] rounded-full flex items-center justify-center text-[#0B1F33] font-bold text-xl">
                       1
                     </div>
-                    <h2 className="text-3xl font-bold text-[#0B1F33]">Describe Your Project</h2>
+                    <h2 className="text-3xl font-bold text-[#0B1F33]">Create Your Home Profile</h2>
                   </div>
                   <p className="text-lg text-[#333645] leading-relaxed mb-6">
-                    Start by uploading photos and describing what you need. Our <strong>AI helps you clarify</strong> the scope, identify potential complications, and set realistic expectations—all before you talk to a contractor.
+                    Getting started is simple. Create your account and add your property to begin building your home's digital memory. The more information you provide, the more personalized your experience becomes.
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]">Upload photos from any device</span>
+                      <span className="text-[#6B7C8F]">Add your property details in minutes</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]"><strong>AI analyzes</strong> materials and conditions</span>
+                      <span className="text-[#6B7C8F]">Upload manuals, warranties, and important documents</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]">Get instant scope recommendations</span>
+                      <span className="text-[#6B7C8F]">Build the foundation for personalized recommendations</span>
                     </li>
                   </ul>
                 </div>
@@ -131,23 +131,23 @@ export default function HowItWorks() {
                     <div className="w-12 h-12 bg-[#D4B483] rounded-full flex items-center justify-center text-[#0B1F33] font-bold text-xl">
                       2
                     </div>
-                    <h2 className="text-3xl font-bold text-[#0B1F33]">Get Matched with Pros</h2>
+                    <h2 className="text-3xl font-bold text-[#0B1F33]">Ask Emporva AI</h2>
                   </div>
                   <p className="text-lg text-[#333645] leading-relaxed mb-6">
-                    Based on your project scope, we connect you with <strong>qualified contractors</strong> who have the right skills, availability, and track record. No more guessing or endless searching.
+                    Have a question about your home? Whether you're troubleshooting an issue, planning a project, or looking for maintenance advice, Emporva AI is here to help with practical homeowner guidance.
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]"><strong>Verified licenses</strong> and insurance</span>
+                      <span className="text-[#6B7C8F]"><strong>Ask questions about repairs, maintenance, or improvements</strong> and insurance</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]">Real reviews from homeowners</span>
+                      <span className="text-[#6B7C8F]">Explore homeowner resources and project guidance</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]">Matched by specialty and location</span>
+                      <span className="text-[#6B7C8F]">Receive recommendations tailored to your home's needs</span>
                     </li>
                   </ul>
                 </div>
@@ -160,23 +160,23 @@ export default function HowItWorks() {
                     <div className="w-12 h-12 bg-[#D4B483] rounded-full flex items-center justify-center text-[#0B1F33] font-bold text-xl">
                       3
                     </div>
-                    <h2 className="text-3xl font-bold text-[#0B1F33]">Review and Approve</h2>
+                    <h2 className="text-3xl font-bold text-[#0B1F33]">Organize Your Home</h2>
                   </div>
                   <p className="text-lg text-[#333645] leading-relaxed mb-6">
-                    Contractors provide detailed quotes based on the <strong>AI-generated scope</strong>. You can compare options, ask questions, and make informed decisions—all within the platform.
+                    Keep everything related to your home in one secure place. From maintenance records to project history, Emporva helps you stay organized and prepared whenever you need important information.
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]"><strong>Transparent pricing</strong> breakdowns</span>
+                      <span className="text-[#6B7C8F]"><strong>Store manuals, warranties, receipts, and inspection reports</strong> breakdowns</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]">Timeline and milestone clarity</span>
+                      <span className="text-[#6B7C8F]">Track home systems, appliances, utility bills, and completed projects</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]">Direct messaging with contractors</span>
+                      <span className="text-[#6B7C8F]">Quickly find important information whenever you need it</span>
                     </li>
                   </ul>
                 </div>
@@ -211,23 +211,23 @@ export default function HowItWorks() {
                     <div className="w-12 h-12 bg-[#D4B483] rounded-full flex items-center justify-center text-[#0B1F33] font-bold text-xl">
                       4
                     </div>
-                    <h2 className="text-3xl font-bold text-[#0B1F33]">Track Everything</h2>
+                    <h2 className="text-3xl font-bold text-[#0B1F33]">Stay Ahead of Homeownership/h2>
                   </div>
                   <p className="text-lg text-[#333645] leading-relaxed mb-6">
-                    Once work begins, your <strong>shared workspace</strong> keeps everyone aligned. Track progress, approve changes, share photos, and manage payments—all in one place.
+                    Emporva helps you move from reacting to home problems to staying ahead of them. Keep track of maintenance, receive reminders, and continue building your home's history over time.
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]"><strong>Real-time progress</strong> updates</span>
+                      <span className="text-[#6B7C8F]"><strong>Receive personalized maintenance reminders</strong> updates</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]">Photo documentation timeline</span>
+                      <span className="text-[#6B7C8F]">Plan future repairs and improvement projects</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <i className="ri-check-line text-[#D4B483] text-xl flex-shrink-0 mt-1" aria-hidden="true"></i>
-                      <span className="text-[#6B7C8F]"><strong>Secure milestone payments</strong></span>
+                      <span className="text-[#6B7C8F]"><Build a complete history that grows more valuable every year</span>
                     </li>
                   </ul>
                 </div>
@@ -241,7 +241,7 @@ export default function HowItWorks() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-[#0B1F33] mb-6">
-                Multi-Trade Coordination Made Simple
+                Everything You Need to Manage Your Home
               </h2>
               <p className="text-xl text-[#6B7C8F] max-w-3xl mx-auto">
                 Many projects require multiple contractors working in sequence. <strong>Emporva handles the coordination</strong> so you don't have to.
@@ -252,27 +252,27 @@ export default function HowItWorks() {
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <i className="ri-calendar-check-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Smart Sequencing</h3>
+                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Smarter Over Time</h3>
                 <p className="text-[#6B7C8F]">
-                  We automatically determine the right order for trades to work, avoiding delays and rework.
+                  As you continue using Emporva, your home's digital memory grows, allowing the platform to deliver increasingly personalized insights and recommendations.
                 </p>
               </article>
               <article className="text-center">
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <i className="ri-team-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Unified Communication</h3>
+                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Personalized Guidance</h3>
                 <p className="text-[#6B7C8F]">
-                  All contractors see the same plan, timeline, and updates—no miscommunication.
+                  Ask questions with confidence and receive AI-powered recommendations designed to help you make informed homeowner decisions.
                 </p>
               </article>
               <article className="text-center">
                 <div className="w-16 h-16 bg-[#D4B483]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <i className="ri-shield-check-line text-3xl text-[#D4B483]" aria-hidden="true"></i>
                 </div>
-                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Quality Checkpoints</h3>
+                <h3 className="text-xl font-bold text-[#0B1F33] mb-3">Built Around Your Home</h3>
                 <p className="text-[#6B7C8F]">
-                  Each phase is verified before the next trade begins, ensuring quality throughout.
+                  Emporva keeps your home's systems, documents, projects, and maintenance history connected in one organized platform.
                 </p>
               </article>
             </div>
@@ -282,12 +282,12 @@ export default function HowItWorks() {
         {/* CTA Section */}
         <section className="py-20 px-6" aria-label="Call to action">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-bold text-[#0B1F33] mb-6">Ready to Get Started?</h2>
+            <h2 className="text-4xl font-bold text-[#0B1F33] mb-6">Ready to Build Your Home's Digital Memory?</h2>
             <p className="text-xl text-[#6B7C8F] mb-8">
-              Join thousands of homeowners who trust <strong>Emporva</strong> to coordinate their <strong>home improvement projects</strong>.
+             Join homeowners who are taking a smarter approach to managing, maintaining, and understanding their homes with Emporva.
             </p>
-            <Link to="/ai-intake" className="inline-block bg-[#0B1F33] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#0B1F33]/90 transition-colors whitespace-nowrap">
-              Start Your Project
+            <Link to="/login" className="inline-block bg-[#0B1F33] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#0B1F33]/90 transition-colors whitespace-nowrap">
+              Create Your Free Account
             </Link>
           </div>
         </section>
