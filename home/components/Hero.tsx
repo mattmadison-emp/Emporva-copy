@@ -35,15 +35,15 @@ export default function Hero() {
         <div className="mt-12 flex flex-wrap justify-center gap-8 text-white/80">
           <div className="flex items-center gap-2">
             <i className="ri-shield-check-line text-[#D4B483] text-xl" aria-hidden="true"></i>
-            <span className="text-sm font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Verified Professionals</span>
+            <span className="text-sm font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Proactive Home Care</span>
           </div>
           <div className="flex items-center gap-2">
             <i className="ri-lightbulb-line text-[#D4B483] text-xl" aria-hidden="true"></i>
-            <span className="text-sm font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>AI-Powered Diagnosis</span>
+            <span className="text-sm font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Personalized AI Guidance</span>
           </div>
           <div className="flex items-center gap-2">
             <i className="ri-file-list-3-line text-[#D4B483] text-xl" aria-hidden="true"></i>
-            <span className="text-sm font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Clear Action Steps</span>
+            <span className="text-sm font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Your Home's Digital Memory</span>
           </div>
         </div>
       </div>
