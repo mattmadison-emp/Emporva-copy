@@ -8,7 +8,7 @@ export default function About() {
   useSEO({
     title: 'About Emporva | Building the Future of Homeownership',
     description: 'Learn about Emporva's mission to simplify homeownership through AI, Property Memory, and personalized guidance that helps homeowners organize, maintain, and understand their homes.',
-    keywords: 'about Emporva, property services platform, AI contractor matching, home improvement technology, contractor coordination, property intelligence',
+    keywords: 'Emporva, about Emporva, AI homeowner platform, homeowner platform, homeownership, property memory, home management, home organization, home maintenance, digital home records, home systems, homeowner resources, home improvement, home maintenance planning, AI home assistant',
     canonical: '/about',
     schema: [
       generateWebPageSchema(
