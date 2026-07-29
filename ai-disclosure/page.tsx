@@ -21,7 +21,7 @@ export default function AIDisclosure() {
                 1. How Emporva Uses AI
               </h2>
               <p className="leading-relaxed mb-4">
-                Emporva uses artificial intelligence to help homeowners and contractors understand property issues and plan projects more effectively. Our AI systems analyze photos, descriptions, and historical data to provide diagnostic insights and workflow recommendations.
+                Emporva uses artificial intelligence to help homeowners understand property issues and plan projects more effectively. Our AI systems analyze photos, descriptions, and historical data to provide diagnostic insights and workflow recommendations.
               </p>
               <p className="leading-relaxed font-semibold">
                 Important: AI is a tool to assist decision-making, not a replacement for professional expertise.
@@ -157,9 +157,6 @@ export default function AIDisclosure() {
                 <li>Local building codes and conditions vary—always verify with local professionals</li>
                 <li>AI cannot detect hidden problems not visible in photos</li>
               </ul>
-              <p className="leading-relaxed font-semibold">
-                Contractors should always verify AI recommendations before beginning work.
-              </p>
             </section>
 
             <section>
@@ -184,23 +181,7 @@ export default function AIDisclosure() {
 
             <section>
               <h2 className="text-2xl font-bold text-[#0B1F33] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                8. For Contractors: Using AI Responsibly
-              </h2>
-              <p className="leading-relaxed mb-4">
-                Contractors using Emporva should:
-              </p>
-              <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>Treat AI diagnostics as a starting point, not a final answer</li>
-                <li>Conduct your own thorough assessment before quoting or starting work</li>
-                <li>Correct any AI errors you identify to help improve the system</li>
-                <li>Never rely solely on AI for safety-critical decisions</li>
-                <li>Communicate clearly with homeowners about what you've verified vs. what AI suggested</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-[#0B1F33] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                9. Transparency and Control
+                8. Transparency and Control
               </h2>
               <p className="leading-relaxed mb-4">
                 You have control over how your data is used:
@@ -215,7 +196,7 @@ export default function AIDisclosure() {
 
             <section>
               <h2 className="text-2xl font-bold text-[#0B1F33] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                10. Emergency Situations
+                9. Emergency Situations
               </h2>
               <div className="bg-red-50 border-l-4 border-red-500 rounded-lg p-6">
                 <p className="leading-relaxed font-semibold text-red-900 mb-4">
@@ -236,15 +217,13 @@ export default function AIDisclosure() {
 
             <section>
               <h2 className="text-2xl font-bold text-[#0B1F33] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                11. Questions or Concerns
+                10. Questions or Concerns
               </h2>
               <p className="leading-relaxed mb-4">
                 If you have questions about how AI is used on Emporva, or if you believe AI provided incorrect or dangerous guidance, please contact us immediately:
               </p>
               <div className="bg-[#F9F9FB] rounded-lg p-6">
-                <p className="mb-2"><strong>Email:</strong> ai-safety@emporva.com</p>
-                <p className="mb-2"><strong>Phone:</strong> [Phone Number]</p>
-                <p><strong>Report an Issue:</strong> Use the "Report AI Error" button in your dashboard</p>
+                <p className="mb-2"><strong>Email:</strong> support@emporva.com</p>
               </div>
             </section>
 
