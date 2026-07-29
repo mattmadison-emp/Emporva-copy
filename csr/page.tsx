@@ -211,25 +211,17 @@ export default function CSR() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-4xl mx-auto bg-gradient-to-r from-[#0B1F33] to-[#6B7C8F] rounded-2xl p-12 text-center shadow-xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-            Join Us in Building Stronger Communities
-          </h2>
-          <p className="text-white/95 text-lg mb-8 max-w-2xl mx-auto" style={{ fontFamily: 'Inter, sans-serif' }}>
-            Every homeowner on Emporva contributes to our giving. Together, we're making homes better — and communities stronger.
-          </p>
-          <a 
-            href="https://www.habitat.org" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-block px-8 py-4 bg-white text-[#0B1F33] rounded-lg hover:bg-gray-50 transition-all duration-300 font-semibold text-lg shadow-lg hover:shadow-xl whitespace-nowrap cursor-pointer" 
-            style={{ fontFamily: 'Montserrat, sans-serif' }}
-          >
-            Learn More About Habitat for Humanity
-          </a>
-        </div>
-      </section>
+       <section className="py-16 px-6" aria-label="Our team">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-[#0B1F33] mb-6">Join Us in Building Stronger Communities</h2>
+            <p className="text-lg text-[#333645] leading-relaxed mb-8">
+              Every homeowner on Emporva contributes to our giving. Together, we're making homes better — and communities stronger.
+            </p>
+            <Link to="/login" className="inline-block bg-[#0B1F33] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#0B1F33]/90 transition-colors whitespace-nowrap">
+              Get Started Free
+            </Link>
+          </div>
+        </section>
 
       <Footer />
     </div>
