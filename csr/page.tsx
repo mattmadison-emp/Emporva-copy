@@ -6,9 +6,9 @@ export default function CSR() {
   const siteUrl = import.meta.env.VITE_SITE_URL || 'https://emporva.com';
   
   useSEO({
-    title: 'Corporate Social Responsibility - Emporva & Habitat for Humanity',
-    description: 'Learn about Emporva\'s commitment to community impact and our partnership with Habitat for Humanity to strengthen neighborhoods through safe, stable housing.',
-    keywords: 'corporate social responsibility, habitat for humanity, community impact, giving back, affordable housing, volunteer construction',
+    title: 'Giving Back | Building Stronger Communities with Emporva',
+    description: 'Learn how Emporva is committed to supporting communities, housing initiatives, environmental efforts, and charitable programs as we grow.',
+    keywords: 'Emporva giving back, corporate social responsibility, community giving, social impact, charitable partnerships, housing initiatives, sustainability, philanthropy, community support, corporate giving',
     canonical: '/csr',
     schema: generateWebPageSchema(
       'Corporate Social Responsibility',
@@ -46,12 +46,11 @@ export default function CSR() {
       <section className="py-20 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-[#0B1F33] mb-8" style={{ fontFamily: 'Poppins, sans-serif' }}>
-            Emporva and Community Impact
+            Our Commitment to Community
           </h2>
           <div className="space-y-6 text-lg text-[#333645] leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
             <p>
-              Emporva believes that improving homes should also improve lives. Our platform is built to make property work clearer, fairer, and more accessible, but we want our impact to reach beyond the digital experience. We believe that every community deserves safe, stable, and dignified housing, and that those who build and repair homes play a vital role in strengthening neighborhoods.
-            </p>
+              We are committed to creating a company that gives back through charitable donations, community partnerships, volunteer efforts, and initiatives that align with our mission and values. As Emporva grows, we intend for our impact to grow alongside it.
           </div>
         </div>
       </section>
@@ -60,41 +59,41 @@ export default function CSR() {
       <section className="py-20 px-6 bg-[#F9F9FB]">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-[#0B1F33] mb-8" style={{ fontFamily: 'Poppins, sans-serif' }}>
-            Partnership With Habitat for Humanity
+            How We Give
           </h2>
           <div className="space-y-6 text-lg text-[#333645] leading-relaxed mb-12" style={{ fontFamily: 'Inter, sans-serif' }}>
             <p>
-              Emporva is committed to supporting Habitat for Humanity because our missions intersect in a meaningful way. Habitat creates homes and stability through service and volunteer-driven construction. Emporva creates clarity and coordination in the world of property work. Both share a vision of homes that are livable, safe, and supported by people who care.
+              We're taking an intentional, open-ended approach to our giving. Rather than locking into a single partnership before we've scaled, we're building a giving model that grows with us and stays responsive to real community needs.
             </p>
           </div>
 
           <div className="bg-white rounded-xl p-8 shadow-lg">
             <h3 className="text-2xl font-bold text-[#0B1F33] mb-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
-              How Emporva Contributes
+              Our Giving Model
             </h3>
             <ul className="space-y-4 text-lg text-[#333645]" style={{ fontFamily: 'Inter, sans-serif' }}>
               <li className="flex items-start gap-3">
                 <i className="ri-hand-heart-line text-2xl text-[#D4B483] flex-shrink-0 mt-1"></i>
-                <span>Providing financial donations to support Habitat for Humanity builds</span>
+                <span>Revenue-based giving: A percentage of Emporva's revenue is directed to vetted nonprofits operating in the areas we serve</span>
               </li>
               <li className="flex items-start gap-3">
                 <i className="ri-tools-line text-2xl text-[#D4B483] flex-shrink-0 mt-1"></i>
-                <span>Sharing platform access that can help coordinate certain volunteer projects in the future</span>
+                <span>Locally focused: We prioritize organizations making a tangible difference in the specific communities where our homeowners live</span>
               </li>
               <li className="flex items-start gap-3">
                 <i className="ri-team-line text-2xl text-[#D4B483] flex-shrink-0 mt-1"></i>
-                <span>Exploring long-term ways to connect skilled trades, volunteers, and resources</span>
+                <span>Open-ended by design: As we grow, we'll evaluate and select nonprofit partners based on impact, alignment, and community need — not predetermined commitments</span>
               </li>
               <li className="flex items-start gap-3">
                 <i className="ri-community-line text-2xl text-[#D4B483] flex-shrink-0 mt-1"></i>
-                <span>Encouraging qualified contractors and homeowners on our platform to learn more about Habitat involvement</span>
+                <span>Transparent reporting: We'll share where our contributions go and what they help accomplish, so our community can see the impact</span>
               </li>
             </ul>
           </div>
 
           <div className="mt-8 bg-[#0B1F33]/5 border-l-4 border-[#0B1F33] rounded-lg p-6">
             <p className="text-lg text-[#333645] italic" style={{ fontFamily: 'Inter, sans-serif' }}>
-              Emporva sees this as an ongoing partnership, not a marketing gesture.
+              This is a genuine commitment, not a marketing gesture. Our giving grows as we grow — and we're building it into how Emporva operates from day one.
             </p>
           </div>
         </div>
@@ -104,7 +103,7 @@ export default function CSR() {
       <section className="py-20 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-[#0B1F33] mb-12 text-center" style={{ fontFamily: 'Poppins, sans-serif' }}>
-            Why It Matters
+            Where We Focus
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -113,10 +112,10 @@ export default function CSR() {
                 <i className="ri-home-heart-line text-3xl text-[#D4B483]"></i>
               </div>
               <h3 className="text-xl font-bold text-[#0B1F33] mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Better Housing
+                Housing Equity
               </h3>
               <p className="text-[#333645]" style={{ fontFamily: 'Inter, sans-serif' }}>
-                Strengthens communities
+                Supporting access to safe, stable, and affordable housing for all
               </p>
             </div>
 
@@ -125,10 +124,10 @@ export default function CSR() {
                 <i className="ri-community-line text-3xl text-[#D4B483]"></i>
               </div>
               <h3 className="text-xl font-bold text-[#0B1F33] mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Stronger Communities
+                Community Development
               </h3>
               <p className="text-[#333645]" style={{ fontFamily: 'Inter, sans-serif' }}>
-                Empower families
+                Strengthening neighborhoods through local investment and revitalization
               </p>
             </div>
 
@@ -137,17 +136,17 @@ export default function CSR() {
                 <i className="ri-parent-line text-3xl text-[#D4B483]"></i>
               </div>
               <h3 className="text-xl font-bold text-[#0B1F33] mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Empowered Families
+                Sustainable Impact
               </h3>
               <p className="text-[#333645]" style={{ fontFamily: 'Inter, sans-serif' }}>
-                Build better futures
+                Supporting initiatives that create lasting, generational change
               </p>
             </div>
           </div>
 
           <div className="text-center space-y-6 text-lg text-[#333645] leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
             <p>
-              Emporva sees housing as the foundation for stability and dignity. Habitat for Humanity makes that foundation real for those who need it most.
+              Emporva sees housing as the foundation for stability and dignity. The organizations we support will reflect that belief, focusing on making home a source of security and opportunity for everyone.
             </p>
           </div>
         </div>
@@ -157,11 +156,11 @@ export default function CSR() {
       <section className="py-20 px-6 bg-[#F9F9FB]">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-[#0B1F33] mb-8" style={{ fontFamily: 'Poppins, sans-serif' }}>
-            Future Goals
+            Where We're Headed
           </h2>
           <div className="space-y-6 text-lg text-[#333645] leading-relaxed mb-8" style={{ fontFamily: 'Inter, sans-serif' }}>
             <p>
-              Emporva aims to expand this partnership into meaningful, scalable initiatives that create lasting impact:
+              As Emporva grows, we plan to expand our community impact in meaningful ways:
             </p>
           </div>
 
@@ -171,10 +170,10 @@ export default function CSR() {
                 <i className="ri-map-pin-line text-2xl text-[#D4B483]"></i>
               </div>
               <h3 className="text-xl font-bold text-[#0B1F33] mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Local Project Coordination
+                Nonprofit Partnerships
               </h3>
               <p className="text-[#333645]" style={{ fontFamily: 'Inter, sans-serif' }}>
-                Supporting volunteer builds with better planning and resource coordination
+                Forming relationships with high-impact nonprofits in each market we enter
               </p>
             </div>
 
@@ -183,10 +182,10 @@ export default function CSR() {
                 <i className="ri-hammer-line text-2xl text-[#D4B483]"></i>
               </div>
               <h3 className="text-xl font-bold text-[#0B1F33] mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Contractor Involvement
+                Homeowner Education
               </h3>
               <p className="text-[#333645]" style={{ fontFamily: 'Inter, sans-serif' }}>
-                Creating opportunities for skilled professionals to volunteer or contribute services
+                Creating resources that help first-time and underserved homeowners navigate property ownership
               </p>
             </div>
 
@@ -195,10 +194,10 @@ export default function CSR() {
                 <i className="ri-book-open-line text-2xl text-[#D4B483]"></i>
               </div>
               <h3 className="text-xl font-bold text-[#0B1F33] mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Homeowner Education
+                Community Projects
               </h3>
               <p className="text-[#333645]" style={{ fontFamily: 'Inter, sans-serif' }}>
-                Providing resources for families entering affordable housing programs
+                Supporting local housing and neighborhood improvement initiatives in our operating areas
               </p>
             </div>
           </div>
@@ -215,10 +214,10 @@ export default function CSR() {
       <section className="py-20 px-6 bg-white">
         <div className="max-w-4xl mx-auto bg-gradient-to-r from-[#0B1F33] to-[#6B7C8F] rounded-2xl p-12 text-center shadow-xl">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-            Join the Mission
+            Join Us in Building Stronger Communities
           </h2>
           <p className="text-white/95 text-lg mb-8 max-w-2xl mx-auto" style={{ fontFamily: 'Inter, sans-serif' }}>
-            Learn more about how Habitat for Humanity is building homes, communities, and hope around the world
+            Every homeowner on Emporva contributes to our giving. Together, we're making homes better — and communities stronger.
           </p>
           <a 
             href="https://www.habitat.org" 
