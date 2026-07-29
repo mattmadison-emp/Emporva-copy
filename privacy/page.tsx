@@ -37,7 +37,6 @@ export default function Privacy() {
                 <li>Name, email address, phone number</li>
                 <li>Property address and location data</li>
                 <li>Payment information (processed securely through third-party providers)</li>
-                <li>Profile photos and verification documents (for contractors)</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-[#0B1F33] mb-3 mt-4">Project Information</h3>
@@ -64,7 +63,6 @@ export default function Privacy() {
               <ul className="list-disc pl-6 space-y-2">
                 <li>To provide and maintain our service</li>
                 <li>To process transactions and send notifications</li>
-                <li>To match homeowners with qualified contractors</li>
                 <li>To improve our AI diagnostic and workflow systems</li>
                 <li>To communicate with you about your projects</li>
                 <li>To detect and prevent fraud or abuse</li>
@@ -97,7 +95,6 @@ export default function Privacy() {
               </h2>
               <p className="leading-relaxed mb-4">We may share your information with:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li><strong>Contractors:</strong> When you request a quote, relevant project details are shared with matched contractors</li>
                 <li><strong>Service Providers:</strong> Third-party vendors who help us operate our platform (payment processors, hosting, analytics)</li>
                 <li><strong>Legal Requirements:</strong> When required by law or to protect our rights</li>
                 <li><strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of assets</li>
@@ -163,9 +160,7 @@ export default function Privacy() {
                 If you have questions about this Privacy Policy or wish to exercise your rights, please contact us:
               </p>
               <div className="bg-[#F9F9FB] rounded-lg p-6">
-                <p className="mb-2"><strong>Email:</strong> privacy@emporva.com</p>
-                <p className="mb-2"><strong>Mail:</strong> Emporva Privacy Team, [Address]</p>
-                <p><strong>Phone:</strong> [Phone Number]</p>
+                <p className="mb-2"><strong>Email:</strong> support@emporva.com</p>
               </div>
             </section>
           </div>
