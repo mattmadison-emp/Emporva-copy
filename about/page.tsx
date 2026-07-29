@@ -6,7 +6,7 @@ import { useSEO, generateWebPageSchema, generateBreadcrumbSchema } from '../../u
 
 export default function About() {
   useSEO({
-    title: 'About Emporva | AI-Powered Property Services Platform',
+    title: 'About Emporva | Building the Future of Homeownership',
     description: 'Learn about Emporva's mission to simplify homeownership through AI, Property Memory, and personalized guidance that helps homeowners organize, maintain, and understand their homes.',
     keywords: 'about Emporva, property services platform, AI contractor matching, home improvement technology, contractor coordination, property intelligence',
     canonical: '/about',
@@ -110,12 +110,12 @@ export default function About() {
         {/* Team Section */}
         <section className="py-16 px-6" aria-label="Our team">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-[#0B1F33] mb-6">Built by People Who Understand</h2>
+            <h2 className="text-3xl font-bold text-[#0B1F33] mb-6">Start Building Your Home's Digital Memory</h2>
             <p className="text-lg text-[#333645] leading-relaxed mb-8">
-              Our team includes former contractors, project managers, and technologists who have lived through the chaos of uncoordinated <strong>home improvement</strong>. We're building the platform we wish existed.
+              Every repair, project, warranty, manual, and maintenance task tells the story of your home. Create your free Emporva account today and start building a smarter, more organized future for your property.
             </p>
-            <Link to="/for-contractors" className="inline-block bg-[#0B1F33] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#0B1F33]/90 transition-colors whitespace-nowrap">
-              Join Our Network
+            <Link to="/login" className="inline-block bg-[#0B1F33] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#0B1F33]/90 transition-colors whitespace-nowrap">
+              Get Started Free
             </Link>
           </div>
         </section>
