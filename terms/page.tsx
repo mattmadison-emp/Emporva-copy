@@ -12,7 +12,7 @@ export default function Terms() {
             Terms of Service
           </h1>
           <p className="text-[#333645] mb-8" style={{ fontFamily: 'Inter, sans-serif' }}>
-            Last Updated: January 2025
+            Last Updated: July 2026
           </p>
 
           <div className="space-y-8 text-[#333645]" style={{ fontFamily: 'Inter, sans-serif' }}>
@@ -30,10 +30,10 @@ export default function Terms() {
                 2. Description of Service
               </h2>
               <p className="leading-relaxed mb-4">
-                Emporva is a platform that connects property owners with verified contractors and provides AI-powered diagnostic and workflow tools. We facilitate connections but do not directly provide contracting services.
+                Emporva is an AI-powered homeowner platform designed to help users organize, understand, and manage their homes. The platform provides tools and resources that may include AI-powered guidance, property organization, document storage, maintenance tracking, project planning, educational content, and other homeowner-focused features.
               </p>
               <p className="leading-relaxed">
-                <strong>Important:</strong> Emporva is a marketplace and technology platform. We are not a contractor, and we do not perform any construction, repair, or maintenance work.
+                <strong>Important:</strong> Emporva is intended to assist homeowners in making informed decisions about their property. Information provided through the platform is for general informational purposes only and should not be considered professional, legal, financial, engineering, or licensed contractor advice. Users are responsible for evaluating recommendations and determining the most appropriate course of action for their specific circumstances.
               </p>
             </section>
 
@@ -61,10 +61,10 @@ export default function Terms() {
               </h2>
               <h3 className="text-xl font-semibold text-[#0B1F33] mb-3 mt-4">Your Responsibilities</h3>
               <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>Provide accurate information about your property and issues</li>
-                <li>Communicate clearly and professionally with contractors</li>
-                <li>Pay contractors according to agreed terms</li>
-                <li>Leave honest reviews based on actual experiences</li>
+                <li>Provide accurate information.</li>
+                <li>Keep your account information up to date.</li>
+                <li>Protect your password.</li>
+                <li>Notify us immediately of any unauthorized use of your account.</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-[#0B1F33] mb-3 mt-4">What We Don't Guarantee</h3>
@@ -78,43 +78,18 @@ export default function Terms() {
 
             <section>
               <h2 className="text-2xl font-bold text-[#0B1F33] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                5. For Contractors
-              </h2>
-              <h3 className="text-xl font-semibold text-[#0B1F33] mb-3 mt-4">Your Responsibilities</h3>
-              <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>Maintain all required licenses, insurance, and certifications</li>
-                <li>Provide accurate information about your qualifications</li>
-                <li>Respond to leads in a timely manner</li>
-                <li>Perform work according to industry standards and local codes</li>
-                <li>Communicate clearly with homeowners throughout projects</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-[#0B1F33] mb-3 mt-4">Verification and Compliance</h3>
-              <p className="leading-relaxed mb-4">
-                By joining Emporva, you agree to:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Submit to background checks and verification processes</li>
-                <li>Maintain current licenses and insurance</li>
-                <li>Comply with our Contractor Standards (see separate document)</li>
-                <li>Allow us to remove you from the platform if standards are not met</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-[#0B1F33] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                6. Payments and Fees
+                6. Subscriptions and Payments
               </h2>
               <h3 className="text-xl font-semibold text-[#0B1F33] mb-3 mt-4">For Homeowners</h3>
               <p className="leading-relaxed mb-4">
-                Using Emporva to find contractors is free. You pay contractors directly for their services according to your agreement with them.
+                Certain features may require a paid subscription.
               </p>
 
               <h3 className="text-xl font-semibold text-[#0B1F33] mb-3 mt-4">For Contractors</h3>
               <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>Free tier: Basic listing with standard payment processing fees</li>
-                <li>Sponsored listings: Pay-per-lead model</li>
-                <li>Pro subscription: Monthly fee for premium features</li>
+                <li>FSubscription pricing, billing terms, renewal policies, and cancellation procedures will be presented at the time of purchase.</li>
+                <li>Unless otherwise stated, subscriptions automatically renew until canceled.</li>
+                <li>Failure to pay applicable fees may result in suspension or termination of premium features.</li>
               </ul>
               <p className="leading-relaxed">
                 All fees are subject to change with 30 days notice. See our pricing page for current rates.
@@ -126,13 +101,13 @@ export default function Terms() {
                 7. AI Diagnostics and Guidance
               </h2>
               <p className="leading-relaxed mb-4">
-                Emporva uses AI to analyze property issues and suggest workflows. However:
+                Emporva uses artificial intelligence to provide homeowner guidance and educational information. While we strive to provide helpful and accurate responses, AI-generated content may be incomplete, inaccurate, or outdated.
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>AI diagnostics are guidance only, not professional advice</li>
-                <li>Always consult with licensed professionals before making decisions</li>
+                <li>AI responses are provided for informational purposes only.</li>
+                <li>AI recommendations should not replace professional judgment.</li>
                 <li>We are not liable for decisions made based on AI recommendations</li>
-                <li>Contractors should verify all AI-generated information</li>
+                <li>You are solely responsible for decisions made based on information provided by the Platform./li>
               </ul>
               <p className="leading-relaxed">
                 See our AI Use Disclosure for complete details.
@@ -144,10 +119,10 @@ export default function Terms() {
                 8. Intellectual Property
               </h2>
               <p className="leading-relaxed mb-4">
-                The Emporva platform, including all content, features, and functionality, is owned by Emporva and protected by copyright, trademark, and other intellectual property laws.
+                The Emporva Platform, including its software, design, branding, graphics, text, logos, AI workflows, and proprietary technology, is owned by Emporva or its licensors and is protected by applicable intellectual property laws.
               </p>
               <p className="leading-relaxed">
-                You retain ownership of content you upload (photos, descriptions, etc.) but grant us a license to use it to provide our services.
+                You may not copy, reproduce, distribute, modify, or create derivative works without prior written permission.
               </p>
             </section>
 
@@ -172,17 +147,10 @@ export default function Terms() {
                 10. Limitation of Liability
               </h2>
               <p className="leading-relaxed mb-4">
-                To the maximum extent permitted by law, Emporva shall not be liable for:
+                To the maximum extent permitted by law, Emporva, its owners, employees, affiliates, partners, and licensors shall not be liable for any indirect, incidental, consequential, special, exemplary, or punitive damages arising out of or relating to your use of the Platform.
               </p>
-              <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>Any indirect, incidental, or consequential damages</li>
-                <li>Work performed by contractors found through our platform</li>
-                <li>Disputes between homeowners and contractors</li>
-                <li>Inaccuracies in AI diagnostics or recommendations</li>
-                <li>Loss of data or business interruption</li>
-              </ul>
               <p className="leading-relaxed">
-                Our total liability shall not exceed the amount you paid to Emporva in the past 12 months.
+                Our total liability for any claim shall not exceed the amount you paid to Emporva during the twelve (12) months preceding the claim, or $100 if no payment has been made.
               </p>
             </section>
 
@@ -206,18 +174,25 @@ export default function Terms() {
                 We reserve the right to modify these terms at any time. We will notify users of significant changes via email or platform notification. Continued use of the platform after changes constitutes acceptance of the new terms.
               </p>
             </section>
-
+              
             <section>
               <h2 className="text-2xl font-bold text-[#0B1F33] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                13. Contact Information
+                13. Termination
+              </h2>
+              <p className="leading-relaxed">
+                You may stop using Emporva at any time. We reserve the right to suspend or terminate access if these Terms are violated or if continued access could harm the Platform or its user
+              </p>
+            </section>
+              
+            <section>
+              <h2 className="text-2xl font-bold text-[#0B1F33] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                14. Contact Information
               </h2>
               <p className="leading-relaxed mb-4">
                 For questions about these Terms of Service, please contact:
               </p>
               <div className="bg-[#F9F9FB] rounded-lg p-6">
-                <p className="mb-2"><strong>Email:</strong> legal@emporva.com</p>
-                <p className="mb-2"><strong>Mail:</strong> Emporva Legal Department, [Address]</p>
-                <p><strong>Phone:</strong> [Phone Number]</p>
+                <p className="mb-2"><strong>Email:</strong> support@emporva.com</p>
               </div>
             </section>
           </div>
